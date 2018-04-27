@@ -121,7 +121,7 @@ body {
 }
 
 footer {
-  height: 10vh;
+  height: 5vh;
   .inner_wrapper.ticker {
     background-color: $white;
     width: 100vw;
@@ -131,6 +131,8 @@ footer {
     border-bottom: 1px solid $brand-one;
     padding-left: 1rem;
     box-sizing: border-box;
+    display: none;
+
     * {
       color: $black;
     }
@@ -167,6 +169,7 @@ footer {
 .ticker {
   overflow: hidden;
   position: relative;
+
 }
 .ticker .block {
   position: absolute;
