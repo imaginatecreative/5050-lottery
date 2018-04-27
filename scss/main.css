@@ -989,7 +989,7 @@ header.block.side_bar {
         font-size: 30px; }
         header.block.side_bar .closebtn:before {
           color: #1B9FD6; }
-      header.block.side_bar ul {
+      header.block.side_bar ul.main-nav {
         display: none; } }
 
 .sidenav {
@@ -1002,6 +1002,10 @@ header.block.side_bar {
   background-color: rgba(255, 255, 255, 0.95);
   overflow-x: hidden;
   transition: 0.5s; }
+  .sidenav nav {
+    padding: 1rem; }
+    .sidenav nav ul li {
+      display: block !important; }
 
 .footer-nav nav.block {
   width: 100%; }

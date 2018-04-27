@@ -46,19 +46,19 @@ header.block.side_bar {
       display: block;
       padding: 1rem 0.5rem;
       font-size: 30px;
-      &:before{
+      &:before {
         color: $brand-one;
       }
     }
-    .closebtn{
+    .closebtn {
       display: block;
       padding: 1rem;
       font-size: 30px;
-      &:before{
+      &:before {
         color: $brand-one;
       }
     }
-    ul{
+    ul.main-nav {
       display: none;
     }
   }
@@ -73,9 +73,17 @@ header.block.side_bar {
   z-index: 99999999;
   top: 0;
   right: 0;
-  background-color: rgba($white,0.95);
+  background-color: rgba($white, 0.95);
   overflow-x: hidden;
   transition: 0.5s;
+  nav {
+    padding: 1rem;
+    ul {
+      li {
+        display: block!important;
+      }
+    }
+  }
 }
 
 

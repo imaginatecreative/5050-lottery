@@ -1,10 +1,15 @@
 .block.hero {
   padding: 2rem 6rem 2rem 2rem;
   width: 60%;
+
+
   display: inline-flex;
   justify-content: flex-end;
   align-items: flex-start;
   flex-direction: column;
+
+
+
   flex: 1 1 60%;
   background-blend-mode: multiply;
   @media only screen and (min-width: 1000px) {
