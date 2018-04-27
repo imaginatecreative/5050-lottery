@@ -62,10 +62,100 @@
 
 
         <div class="block content">
-            <h1>Your Account</h1>
-            <h3>accusantium tempore</h3>
-            <p><strong>Ex quaerat omnis voluptatibus suscipit omnis aut. Cupiditate dolores iure odit id eligendi modi. Architecto rem nemo.</strong></p>
-            <p>Omnis unde perferendis deserunt cum in. Facilis dicta optio blanditiis. Perferendis nihil quos iure beatae. Necessitatibus facere quisquam alias ea occaecati assumenda dolore. Voluptatibus laboriosam dolorum nesciunt perspiciatis. Dolor aut dolorum hic temporibus placeat. Quaerat facilis laudantium sint. Explicabo voluptatibus nam distinctio ipsum praesentium voluptate. Dolor totam nisi praesentium.</p>
+            <form>
+                <fieldset>
+
+                    <!-- Form Name -->
+                    <legend><h4><strong>Personal</strong> Information</h4></legend>
+
+                    <!-- Email input-->
+                    <div class="group">
+                        <span class="visuallyhidden">Please Enter your email address</span>
+                        <input id="email-one" name="email-one" type="email" placeholder="Email"
+                               class="inputMaterial" required="">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label class=" control-label" for="email-one">Email</label>
+                    </div>
+
+                    <!-- Number input-->
+                    <div class="group">
+                        <span class="visuallyhidden">Please enter your mobile number</span>
+                        <input id="mobile-number" name="mobile-number" type="number" placeholder="Mobile Phone"
+                               class="inputMaterial" required="">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label class=" control-label" for="mobile-number">Mobile Phone</label>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="group">
+                        <span class="visuallyhidden">Please enter your city </span>
+                        <input id="city" name="city" type="text" placeholder="City" class="inputMaterial"
+                               required="">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label class=" control-label" for="city">City</label>
+                    </div>
+
+                    <!-- file input-->
+                    <div class="group">
+                        <span class="visuallyhidden">Please enter your file </span>
+                        <input id="file" name="file" type="file" placeholder="file" class="inputMaterial"
+                               required="">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                    </div>
+
+
+                    <!-- Date Time input-->
+                    <div class="group">
+                        <span class="visuallyhidden">Please enter the date time </span>
+                        <input id="datetime-local" name="datetime-local" type="datetime-local" placeholder="datetime-local" class="inputMaterial"
+                               required="">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+
+                    </div>
+
+
+                    <!-- Date input-->
+                    <div class="group">
+                        <span class="visuallyhidden">Please enter the date </span>
+                        <input id="date" name="date" type="date" placeholder="date" class="inputMaterial"
+                               required="">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                    </div>
+
+
+                    <!-- password input-->
+                    <div class="group">
+                        <span class="visuallyhidden">Please enter the password </span>
+                        <input id="password" name="password" type="password" placeholder="password" class="inputMaterial"
+                               required="">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label class=" control-label" for="password">Password</label>
+                    </div>
+
+
+                    <!-- AGE checkbox -->
+                    <div class="group no-style">
+                        <p class="visuallyhidden">Please enter your age</p>
+                        <input type="checkbox" id="age-check" required="">
+                        <label for="age-check">I am at least 16 years of age</label>
+                    </div>
+
+
+                    <!-- Button -->
+                    <div class="group">
+                        <button id="confirm" name="confirm" class="button-primary">Next</button>
+                        <a class="button-primary" href="step-three.html">NEXT</a>
+                    </div>
+
+                </fieldset>
+            </form>
         </div>
 
 
@@ -107,6 +197,8 @@
                 <li><a href="../sub-pages/account.html">Privacy Policy</a></li>
                 <li><a href="../sub-pages/account.html">Refund Policy</a></li>
                 <li><a href="../sub-pages/account.html">Responsible Gambling</a></li>
+                <li><a href="sub-pages/form-elements.html">Form Elements</a></li>
+
             </ul>
         </nav>
         <div class="block copy">
