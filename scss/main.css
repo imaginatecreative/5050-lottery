@@ -838,13 +838,15 @@ input[type=number] {
 .block.step-one .inner_top {
   flex: 1 1 25%; }
 .block.step-one .inner_mid {
-  width: 100%;
   flex: 1 1 40%; }
   .block.step-one .inner_mid h2 {
-    color: #1B9FD6; }
+    color: #1B9FD6;
+    width: 100%; }
   .block.step-one .inner_mid input[type=number] {
     width: 130px;
     color: #ffffff; }
+  .block.step-one .inner_mid .options-wrap {
+    width: 100%; }
 .block.step-one .inner_bottom {
   flex: 1 1 25%;
   justify-content: flex-start; }

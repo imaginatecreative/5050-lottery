@@ -129,14 +129,18 @@
     flex: 1 1 25%;
   }
   .inner_mid {
-    width: 100%;
+
     flex: 1 1 40%;
     h2 {
       color: $brand-one;
+      width: 100%;
     }
     input[type=number] {
       width: 130px;
       color: $white;
+    }
+    .options-wrap{
+      width: 100%;
     }
   }
   .inner_bottom {
