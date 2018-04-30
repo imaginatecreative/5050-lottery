@@ -162,3 +162,9 @@ label {
 .select-style select:focus {
   outline: none;
 }
+
+.label{
+  label{
+    position: relative;
+  }
+}

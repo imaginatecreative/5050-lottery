@@ -518,6 +518,9 @@ label {
 .select-style select:focus {
   outline: none; }
 
+.label label {
+  position: relative; }
+
 section.main {
   background-color: #fffff;
   display: inline-flex;
