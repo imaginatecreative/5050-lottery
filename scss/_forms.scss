@@ -140,3 +140,25 @@ label {
   }
 }
 
+.select-style {
+  border: 1px solid #ccc;
+
+  border-radius: 3px;
+  overflow: hidden;
+  @media only screen and (min-width: 750px) {
+    width: 50%;
+  }
+}
+
+.select-style select {
+  padding: 5px 8px;
+  width: 100%;
+  border: none;
+  color: #999;
+
+
+}
+
+.select-style select:focus {
+  outline: none;
+}
