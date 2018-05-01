@@ -1,22 +1,23 @@
-form{
+form {
   display: inline-flex;
   flex-direction: column;
   flex-wrap: wrap;
   box-sizing: border-box;
 
-  fieldset{
+  fieldset {
     display: inline-block;
     box-sizing: border-box;
     padding: 1rem;
   }
 }
+
 .group {
   position: relative;
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 0.8rem;
-  &.half{
+  &.half {
     width: 49%;
     @media only screen and (max-width: 600px) {
       width: 100%;
@@ -37,19 +38,22 @@ form{
 .inputMaterial:focus {
   outline: none;
 }
-legend{
+
+legend {
   margin-bottom: -1rem;
 }
+
 /* LABEL ======================================= */
 
-.group.no-style{
+.group.no-style {
   text-align: left;
-  label{
+  label {
     position: relative;
     left: 0;
     top: 0;
   }
 }
+
 label {
   color: #999;
   font-size: 14px;
@@ -156,15 +160,12 @@ label {
   border: none;
   color: #999;
 
-
 }
 
 .select-style select:focus {
   outline: none;
 }
 
-.label{
-  label{
-    position: relative;
-  }
+.label label {
+  position: relative;
 }
