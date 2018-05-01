@@ -848,29 +848,31 @@ input[type=number] {
     .block.home .inner_bottom {
       order: 3; } }
 
-.block.step-one > div {
-  display: inherit;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  @media only screen and (max-width: 1000px) {
-    .block.step-one > div {
-      padding: 0 1rem; } }
-.block.step-one .inner_top {
-  flex: 1 1 25%; }
-.block.step-one .inner_mid {
-  flex: 1 1 40%; }
-  .block.step-one .inner_mid h2 {
-    color: #1B9FD6;
-    width: 100%; }
-  .block.step-one .inner_mid input[type=number] {
-    width: 130px;
-    color: #ffffff; }
-  .block.step-one .inner_mid .options-wrap {
-    width: 100%; }
-.block.step-one .inner_bottom {
-  flex: 1 1 25%;
-  justify-content: flex-start; }
+.block.step-one {
+  flex-direction: row; }
+  .block.step-one .inner_top, .block.step-one .inner_mid, .block.step-one .inner_bottom {
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (max-width: 1000px) {
+      .block.step-one .inner_top, .block.step-one .inner_mid, .block.step-one .inner_bottom {
+        padding: 0 1rem; } }
+  .block.step-one .inner_top {
+    flex: 1 1 25%; }
+  .block.step-one .inner_mid {
+    flex: 1 1 40%; }
+    .block.step-one .inner_mid h2 {
+      color: #1B9FD6;
+      width: 100%; }
+    .block.step-one .inner_mid input[type=number] {
+      width: 130px;
+      color: #ffffff; }
+    .block.step-one .inner_mid .options-wrap {
+      width: 100%; }
+  .block.step-one .inner_bottom {
+    flex: 1 1 25%;
+    justify-content: flex-start; }
 
 .block.step-two form {
   margin-top: 0.5rem; }

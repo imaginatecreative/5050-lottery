@@ -113,8 +113,8 @@
 
 //STEP ONE
 .block.step-one {
-
-  & > div {
+  flex-direction: row;
+  .inner_top,.inner_mid,.inner_bottom {
     display: inherit;
     flex-direction: column;
     justify-content: center;
@@ -123,7 +123,6 @@
     @media only screen and (max-width: 1000px) {
       padding: 0 1rem;
     }
-
   }
   .inner_top {
     flex: 1 1 25%;
@@ -139,7 +138,7 @@
       width: 130px;
       color: $white;
     }
-    .options-wrap{
+    .options-wrap {
       width: 100%;
     }
   }
