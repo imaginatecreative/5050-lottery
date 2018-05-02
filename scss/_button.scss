@@ -96,7 +96,7 @@ input[type=number] {
     color: $white;
   }
 
-  &:focus {
+  &:focus,.focus {
     background-color: $brand-one;
     color: $white;
     outline: none;

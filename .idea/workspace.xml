@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894c8ce1-43ad-4d9d-9b1d-a595fbbc44f9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_draw-styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_draw-styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steps/step-four.html" beforeDir="false" afterPath="$PROJECT_DIR$/steps/step-four.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,8 +69,8 @@
           <file leaf-file-name="step-four.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/steps/step-four.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+                <state relative-caret-position="546">
+                  <caret line="67" column="50" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -161,11 +160,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_button.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_button.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/_button.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="100" column="18" lean-forward="true" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+                <state relative-caret-position="514">
+                  <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -179,7 +178,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_draw-styles.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_draw-styles.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_draw-styles.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="210">
@@ -271,10 +270,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/_hero.scss" />
         <option value="$PROJECT_DIR$/sub-pages/form-elements.html" />
-        <option value="$PROJECT_DIR$/scss/_button.scss" />
         <option value="$PROJECT_DIR$/scss/_side-bar.scss" />
         <option value="$PROJECT_DIR$/steps/step-four.html" />
         <option value="$PROJECT_DIR$/scss/_draw-styles.scss" />
+        <option value="$PROJECT_DIR$/scss/_button.scss" />
       </list>
     </option>
   </component>
@@ -419,12 +418,12 @@
       <workItem from="1525094255135" duration="828000" />
       <workItem from="1525095200156" duration="8878000" />
       <workItem from="1525271932150" duration="1372000" />
-      <workItem from="1525274149186" duration="39000" />
+      <workItem from="1525274149186" duration="262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85138000" />
+    <option name="totallyTimeSpent" value="85361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3840" y="22" width="1920" height="1178" extended-state="0" />
@@ -849,15 +848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/steps/step-four.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="100" column="18" lean-forward="true" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+        <state relative-caret-position="546">
+          <caret line="67" column="50" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -868,6 +860,13 @@
           <folding>
             <element signature="e#338#2162#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
         </state>
       </provider>
     </entry>
