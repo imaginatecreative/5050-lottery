@@ -590,7 +590,8 @@ section.secondary {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
+  -ms-text-size-adjust: 100%;
+  font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 12px 0 12px 0;
@@ -761,7 +762,7 @@ input[type=number] {
   .button-primary.choices:active {
     background-color: #1B9FD6;
     color: #ffffff; }
-  .button-primary.choices:focus, .button-primary.choices .focus {
+  .button-primary.choices:focus, .button-primary.choices.focus {
     background-color: #1B9FD6;
     color: #ffffff;
     outline: none; }
