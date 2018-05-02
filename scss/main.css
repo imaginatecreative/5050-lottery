@@ -626,11 +626,11 @@ h2 {
     h2 {
       font-size: 1.5625rem; } }
 
-h3 {
+h3, h3 span {
   font-size: 1.6666666667rem;
   font-weight: 400;
   text-transform: uppercase; }
-  h3 strong {
+  h3 strong, h3 span strong {
     font-size: 1.6666666667rem;
     font-weight: 800; }
 
@@ -765,6 +765,37 @@ input[type=number] {
     background-color: #1B9FD6;
     color: #ffffff;
     outline: none; }
+
+.button-secondary {
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 0.8333333333rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border-radius: 500px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  margin: 0.5rem 0 0 0;
+  color: #1B9FD6;
+  border: 1px solid #1B9FD6; }
+  .button-secondary:hover {
+    background-color: #1B9FD6;
+    color: #ffffff;
+    outline: none; }
+  .button-secondary:active {
+    background-color: #A1DAF8;
+    color: #ffffff;
+    outline: none; }
+  .button-secondary:focus {
+    background-color: #F7A700;
+    color: #ffffff;
+    outline: none; }
+  @media only screen and (max-width: 768px) {
+    .button-secondary {
+      padding: 15px 25px; } }
 
 .block.draw {
   flex-direction: column;
@@ -937,6 +968,8 @@ input[type=number] {
   .block.hero h4 {
     margin-bottom: 0;
     text-transform: inherit; }
+  .block.hero.step-one {
+    background: linear-gradient(to bottom, rgba(32, 124, 202, 0) 0%, rgba(16, 62, 101, 0) 50%, rgba(8, 30, 48, 0.3) 76%, rgba(0, 0, 0, 0.5) 100%), url("../img/hero.jpg") center center/cover no-repeat; }
 
 .sub-page.block {
   text-align: left;
@@ -984,7 +1017,9 @@ header.block.side_bar {
       header.block.side_bar ul li a {
         padding: 0 0 0 0.25rem; }
       header.block.side_bar ul li:before {
-        color: #1B9FD6; }
+        color: #1B9FD6;
+        width: 20px;
+        display: inline-block; }
   header.block.side_bar .mobile_button {
     display: none; }
   @media only screen and (min-width: 1000px) {

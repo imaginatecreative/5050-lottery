@@ -102,3 +102,41 @@ input[type=number] {
     outline: none;
   }
 }
+.button-secondary{
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: $paragraph-size;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border-radius: 500px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  margin: 0.5rem 0 0 0;
+  color: $brand-one;
+  border: 1px solid $brand-one;
+
+  &:hover {
+    background-color: $brand-one;
+    color: $white;
+    outline: none;
+
+  }
+  &:active {
+    background-color: $brand-two;
+    color: $white;
+    outline: none;
+
+  }
+
+  &:focus {
+    background-color: $brand-six;
+    color: $white;
+    outline: none;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 15px 25px;
+  }
+}

@@ -14,6 +14,8 @@ header.block.side_bar {
       }
       &:before {
         color: $brand-one;
+        width: 20px;
+        display: inline-block;
       }
     }
   }
@@ -48,6 +50,7 @@ header.block.side_bar {
       font-size: 30px;
       &:before {
         color: $brand-one;
+
       }
     }
     .closebtn {
