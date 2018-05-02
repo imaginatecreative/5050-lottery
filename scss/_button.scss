@@ -36,7 +36,7 @@ button{
     outline: none;
 
   }
-  &:active {
+  &:active,&.focus {
     background-color: $brand-two;
     color: $white;
     outline: none;
@@ -91,12 +91,12 @@ input[type=number] {
     background-color: $brand-one;
     color: $white;
   }
-  &:active {
+  &:active,&.focus {
     background-color: $brand-one;
     color: $white;
   }
 
-  &:focus,&.focus {
+  &:focus {
     background-color: $brand-one;
     color: $white;
     outline: none;

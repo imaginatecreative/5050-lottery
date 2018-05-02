@@ -714,7 +714,7 @@ button {
     background-color: #A1DAF8;
     color: #ffffff;
     outline: none; }
-  .button-primary:active, input[type=submit]:active {
+  .button-primary:active, .button-primary.focus, input[type=submit]:active, input[type=submit].focus {
     background-color: #A1DAF8;
     color: #ffffff;
     outline: none; }
@@ -759,10 +759,10 @@ input[type=number] {
   .button-primary.choices:hover {
     background-color: #1B9FD6;
     color: #ffffff; }
-  .button-primary.choices:active {
+  .button-primary.choices:active, .button-primary.choices.focus {
     background-color: #1B9FD6;
     color: #ffffff; }
-  .button-primary.choices:focus, .button-primary.choices.focus {
+  .button-primary.choices:focus {
     background-color: #1B9FD6;
     color: #ffffff;
     outline: none; }
