@@ -316,11 +316,11 @@ body {
       flex-wrap: nowrap; } }
 
 footer {
-  height: 5vh; }
+  height: 10vh;
+  position: relative; }
   footer .inner_wrapper.ticker {
     background-color: #fffff;
     width: 100vw;
-    display: inline-flex;
     height: 5vh;
     border-left: 5px solid #1b9fd6;
     border-bottom: 1px solid #1b9fd6;
@@ -344,7 +344,38 @@ footer {
     background-color: #fffff;
     text-align: center; }
     footer .inner_wrapper.footer-nav .block {
-      padding: 0.2rem; }
+      padding: 0.2rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center; }
+    footer .inner_wrapper.footer-nav nav.block {
+      height: 5vh; }
+    footer .inner_wrapper.footer-nav .block.copy {
+      height: 5vh; }
+  footer .inner_wrapper.acred {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    top: 0; }
+    footer .inner_wrapper.acred .block {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center; }
+      footer .inner_wrapper.acred .block.visa {
+        flex: 1 1 50%;
+        justify-content: flex-start; }
+      footer .inner_wrapper.acred .block.social {
+        flex: 1 1 50%;
+        justify-content: flex-end;
+        padding-right: 1rem; }
+        footer .inner_wrapper.acred .block.social img {
+          width: 30px;
+          flex-direction: row;
+          margin-right: 5px; }
+    @media only screen and (min-width: 1200px) {
+      footer .inner_wrapper.acred {
+        position: absolute; } }
 
 .ticker {
   overflow: hidden;
@@ -1097,5 +1128,109 @@ header.block.side_bar {
   .footer-nav .block.copy h6 {
     margin: 0;
     color: #2b2b2b; }
+
+.field-with-error {
+  background-color: #F9DEDE !important;
+  border-bottom: 1px solid #F44949 !important; }
+
+/* this stops Firefox putting a red border around required input fields */
+input:invalid {
+  box-shadow: none; }
+
+.advice {
+  font-size: small; }
+
+input.ng-pristine + ul#strength {
+  display: none; }
+
+ul#strength {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  margin-left: 15px;
+  padding: 3px 0 5px 0;
+  vertical-align: 2px; }
+
+/* show/hide animation for angular*/
+.animate-show-hide.ng-hide {
+  opacity: 0; }
+
+.animate-show-hide.ng-hide-add,
+.animate-show-hide.ng-hide-remove {
+  transition: all linear 0.5s; }
+
+.red {
+  color: red; }
+
+.green {
+  color: green; }
+
+.small {
+  font-size: small; }
+
+/* loading bar displayed before payment screen */
+/* Found at https://www.pexels.com/blog/css-only-loaders/ */
+.loader {
+  height: 4px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #ddd; }
+
+.loader:before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: -200px;
+  width: 200px;
+  height: 4px;
+  background-color: #2980b9;
+  animation: loading 2s linear infinite; }
+
+@keyframes loading {
+  from {
+    left: -200px;
+    width: 30%; }
+  50% {
+    width: 30%; }
+  70% {
+    width: 70%; }
+  80% {
+    left: 50%; }
+  95% {
+    left: 120%; }
+  to {
+    left: 100%; } }
+/* ------------------------------------------------------------- */
+a.devtooltip {
+  color: red !important; }
+
+a.devtooltip span {
+  font-size: 10px;
+  position: absolute;
+  z-index: 999;
+  white-space: nowrap;
+  bottom: 9999px;
+  left: 50%;
+  background: #EFEEB3 !important;
+  color: #DB111E !important;
+  padding: 0px 7px;
+  line-height: 24px;
+  height: 24px;
+  opacity: 0;
+  transition: opacity 0.4s ease-out; }
+
+a.devtooltip span::before {
+  content: "";
+  display: block;
+  border-left: 6px solid #000000 !important;
+  border-top: 6px solid transparent;
+  position: absolute;
+  top: -6px;
+  left: 0px; }
+
+a.devtooltip:hover span {
+  opacity: 1;
+  bottom: -35px; }
 
 /*# sourceMappingURL=main.css.map */
