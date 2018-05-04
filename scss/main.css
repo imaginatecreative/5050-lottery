@@ -417,198 +417,6 @@ footer {
     -webkit-transform: translateX(-100%);
     /* Firefox bug fix */
     transform: translateX(-100%); } }
-form {
-  display: inline-flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  box-sizing: border-box; }
-  form fieldset {
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 1rem; }
-
-.group {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  box-sizing: border-box;
-  margin-bottom: 0.8rem; }
-  .group.half {
-    width: 49%; }
-    @media only screen and (max-width: 600px) {
-      .group.half {
-        width: 100%; } }
-
-.inputMaterial {
-  font-size: 18px;
-  padding: 10px 10px 10px 5px;
-  display: inline-block;
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid #757575;
-  box-sizing: border-box; }
-
-.inputMaterial:focus {
-  outline: none; }
-
-legend {
-  margin-bottom: -1rem; }
-
-/* LABEL ======================================= */
-.group.no-style {
-  text-align: left; }
-  .group.no-style label {
-    position: relative;
-    left: 0;
-    top: 0; }
-
-label {
-  color: #999;
-  font-size: 14px;
-  font-weight: normal;
-  position: absolute;
-  pointer-events: none;
-  left: 5px;
-  top: 10px;
-  transition: 0.2s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all; }
-
-/* active state */
-.inputMaterial:focus ~ label, .inputMaterial:valid ~ label {
-  top: -8px;
-  font-size: 14px;
-  color: #1b9fd6; }
-
-/* BOTTOM BARS ================================= */
-.bar {
-  position: relative;
-  display: block;
-  width: 100%; }
-
-.bar:before, .bar:after {
-  content: '';
-  height: 2px;
-  width: 0;
-  bottom: 1px;
-  position: absolute;
-  background: #1b9fd6;
-  transition: 0.2s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all; }
-
-.bar:before {
-  left: 50%; }
-
-.bar:after {
-  right: 50%; }
-
-/* active state */
-.inputMaterial:focus ~ .bar:before, .inputMaterial:focus ~ .bar:after {
-  width: 50%; }
-
-/* active state */
-.inputMaterial:focus ~ .highlight {
-  -webkit-animation: inputHighlighter 0.3s ease;
-  -moz-animation: inputHighlighter 0.3s ease;
-  animation: inputHighlighter 0.3s ease; }
-
-/* ANIMATIONS ================ */
-@-webkit-keyframes inputHighlighter {
-  from {
-    background: #5264AE; }
-  to {
-    width: 0;
-    background: transparent; } }
-@-moz-keyframes inputHighlighter {
-  from {
-    background: #5264AE; }
-  to {
-    width: 0;
-    background: transparent; } }
-@keyframes inputHighlighter {
-  from {
-    background: #5264AE; }
-  to {
-    width: 0;
-    background: transparent; } }
-.select-style {
-  border-radius: 3px;
-  overflow: hidden; }
-  .select-style select {
-    border: 1px solid #ccc !important; }
-  @media only screen and (min-width: 750px) {
-    .select-style {
-      width: 50%; } }
-
-.select-style select {
-  padding: 5px 8px;
-  width: 100%;
-  border: none;
-  color: #999; }
-
-.select-style select:focus {
-  outline: none; }
-
-.label label {
-  position: relative; }
-
-.select-style.label label {
-  margin-bottom: 10px;
-  display: inline-block; }
-
-section.main {
-  background-color: #fffff;
-  display: inline-flex;
-  flex-direction: column;
-  width: 100%; }
-  section.main .top_row {
-    width: 100%;
-    display: inline-flex;
-    min-height: 650px; }
-    @media only screen and (min-width: 1000px) {
-      section.main .top_row {
-        min-height: 75vh; } }
-    @media only screen and (max-width: 1000px) {
-      section.main .top_row {
-        flex-direction: column; } }
-
-section.secondary {
-  background-color: #fffff;
-  display: inline-flex;
-  flex-direction: column;
-  width: 100%; }
-  section.secondary .top_row {
-    width: 100%;
-    display: inline-flex;
-    min-height: 600px;
-    height: auto; }
-    @media only screen and (min-width: 1000px) {
-      section.secondary .top_row {
-        min-height: 75vh; } }
-    @media only screen and (max-width: 1000px) {
-      section.secondary .top_row {
-        flex-direction: column; } }
-    section.secondary .top_row .block.content {
-      display: inline-flex;
-      justify-content: flex-start;
-      align-items: flex-start;
-      flex-direction: column;
-      flex: 1 1 90%;
-      padding: 5% 2.5%; }
-      @media only screen and (min-width: 1000px) {
-        section.secondary .top_row .block.content {
-          padding: 12% 5%; } }
-      @media only screen and (max-width: 1000px) {
-        section.secondary .top_row .block.content {
-          padding-top: 7.5rem; } }
-      @media only screen and (max-width: 750px) {
-        section.secondary .top_row .block.content {
-          padding-top: 3.5rem; } }
-      @media only screen and (max-width: 600px) {
-        section.secondary .top_row .block.content {
-          padding-top: 2.5rem; } }
-
 /*------------------------------------*\
     # Simple Typography Settings
 \*------------------------------------*/
@@ -712,6 +520,198 @@ ul, ol {
     font-size: 0.8333333333rem; }
   ul ul, ul ol, ol ul, ol ol {
     margin-top: 0; }
+
+form {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box; }
+  form fieldset {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1rem; }
+
+.group {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0.8rem; }
+  .group.half {
+    width: 49%; }
+    @media only screen and (max-width: 600px) {
+      .group.half {
+        width: 100%; } }
+
+.inputMaterial {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: inline-block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #757575;
+  box-sizing: border-box; }
+
+.inputMaterial:focus {
+  outline: none; }
+
+legend {
+  margin-bottom: -1rem; }
+
+/* LABEL ======================================= */
+.group.no-style {
+  text-align: left; }
+  .group.no-style label {
+    position: relative;
+    left: 0;
+    top: 0; }
+
+label {
+  color: #999;
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all; }
+
+/* active state */
+.inputMaterial:focus ~ label, .inputMaterial:valid ~ label {
+  top: -8px;
+  font-size: 14px;
+  color: #1B9FD6; }
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 100%; }
+
+.bar:before, .bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #1B9FD6;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all; }
+
+.bar:before {
+  left: 50%; }
+
+.bar:after {
+  right: 50%; }
+
+/* active state */
+.inputMaterial:focus ~ .bar:before, .inputMaterial:focus ~ .bar:after {
+  width: 50%; }
+
+/* active state */
+.inputMaterial:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease; }
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264AE; }
+  to {
+    width: 0;
+    background: transparent; } }
+@-moz-keyframes inputHighlighter {
+  from {
+    background: #5264AE; }
+  to {
+    width: 0;
+    background: transparent; } }
+@keyframes inputHighlighter {
+  from {
+    background: #5264AE; }
+  to {
+    width: 0;
+    background: transparent; } }
+.select-style {
+  border-radius: 3px;
+  overflow: hidden; }
+  .select-style select {
+    border: 1px solid #ccc !important; }
+  @media only screen and (min-width: 750px) {
+    .select-style {
+      width: 50%; } }
+
+.select-style select {
+  padding: 5px 8px;
+  width: 100%;
+  border: none;
+  color: #999; }
+
+.select-style select:focus {
+  outline: none; }
+
+.label label {
+  position: relative; }
+
+.select-style.label label {
+  margin-bottom: 10px;
+  display: inline-block; }
+
+section.main {
+  background-color: #ffffff;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%; }
+  section.main .top_row {
+    width: 100%;
+    display: inline-flex;
+    min-height: 650px; }
+    @media only screen and (min-width: 1000px) {
+      section.main .top_row {
+        min-height: 75vh; } }
+    @media only screen and (max-width: 1000px) {
+      section.main .top_row {
+        flex-direction: column; } }
+
+section.secondary {
+  background-color: #ffffff;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%; }
+  section.secondary .top_row {
+    width: 100%;
+    display: inline-flex;
+    min-height: 600px;
+    height: auto; }
+    @media only screen and (min-width: 1000px) {
+      section.secondary .top_row {
+        min-height: 75vh; } }
+    @media only screen and (max-width: 1000px) {
+      section.secondary .top_row {
+        flex-direction: column; } }
+    section.secondary .top_row .block.content {
+      display: inline-flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      flex: 1 1 90%;
+      padding: 5% 2.5%; }
+      @media only screen and (min-width: 1000px) {
+        section.secondary .top_row .block.content {
+          padding: 12% 5%; } }
+      @media only screen and (max-width: 1000px) {
+        section.secondary .top_row .block.content {
+          padding-top: 7.5rem; } }
+      @media only screen and (max-width: 750px) {
+        section.secondary .top_row .block.content {
+          padding-top: 3.5rem; } }
+      @media only screen and (max-width: 600px) {
+        section.secondary .top_row .block.content {
+          padding-top: 2.5rem; } }
 
 button {
   border: none;
@@ -842,7 +842,7 @@ input[type=number] {
       width: 100%; } }
   .block.draw > div {
     padding: 1rem; }
-  .block.draw.text-left {
+  .block.draw .text-left {
     text-align: left; }
 
 @media only screen and (max-width: 1000px) {
@@ -1155,7 +1155,6 @@ ul#strength {
 .animate-show-hide.ng-hide {
   opacity: 0; }
 
-.animate-show-hide.ng-hide-add,
 .animate-show-hide.ng-hide-remove {
   transition: all linear 0.5s; }
 
