@@ -11,6 +11,17 @@
     color: $white;
 
   }
+  h3{
+    font-size: $header-size / 1.7;
+    &:after{
+      content: '>';
+      margin-top: 0;
+      display: inline-block;
+      position: absolute;
+
+    }
+
+  }
   @media only screen and (min-width: 750px) {
 
   }

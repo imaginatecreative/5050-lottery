@@ -1015,6 +1015,13 @@ input[type=number] {
   padding: 2rem 1.5rem 1.5rem 3rem; }
   .sub-page.block * {
     color: #ffffff; }
+  .sub-page.block h3 {
+    font-size: 1.4705882353rem; }
+    .sub-page.block h3:after {
+      content: '>';
+      margin-top: 0;
+      display: inline-block;
+      position: absolute; }
   @media only screen and (max-width: 1200px) {
     .sub-page.block {
       padding: 2rem; } }
