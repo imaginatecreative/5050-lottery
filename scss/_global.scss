@@ -162,6 +162,9 @@ footer {
     }
     nav.block {
       height: 5vh;
+      ul{
+        z-index: 3;
+      }
     }
     .block.copy {
       height: 5vh;
@@ -178,11 +181,9 @@ footer {
       justify-content: center;
       align-items: center;
       &.visa {
-        flex: 1 1 50%;
         justify-content: flex-start;
       }
       &.social {
-        flex: 1 1 50%;
         justify-content: flex-end;
         padding-right: 1rem;
         img {

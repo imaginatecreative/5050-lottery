@@ -1,9 +1,10 @@
-var gulp = require('gulp')
-    sass = require('gulp-sass'),
-    plumber = require('gulp-plumber'),
-    prefix = require('gulp-autoprefixer'),
-    cssmin      = require('gulp-cssnano'),
+var gulp = require('gulp');
+    sass = require('gulp-sass');
+    plumber = require('gulp-plumber');
+    prefix = require('gulp-autoprefixer');
+    cssmin      = require('gulp-cssnano');
     rename      = require('gulp-rename');
+    notify      = require('gulp-notify');
 
 
 
